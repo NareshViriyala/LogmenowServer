@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <ImageView
+        android:id="@+id/img_vehType"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/wheeler4"
+        android:scaleType="fitXY"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="4dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_vehicleno"
+            android:text="AP 28 DV 6834"
+            android:textSize="16dp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_local"
+                android:text="Local\nEnter: 08:29 PM"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_server"
+                android:text="Server\nEnter: 08:30 PM"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_tariffAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginLeft="2dp"
+        android:textSize="16dp"
+        android:text="20/-"/>
+
+    <ImageView
+        android:id="@+id/img_wsStatus"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/icon_green_dot"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

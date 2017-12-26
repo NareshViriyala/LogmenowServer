@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1039704600442",
+    "project_id": "logmenowserver"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039704600442:android:b37dcd164a7dc9ff",
+        "android_client_info": {
+          "package_name": "com.example.home.logmenowserver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO6PRqedIyIAJJl3s1s2gUeH7eYCDpvpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

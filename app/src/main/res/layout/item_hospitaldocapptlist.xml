@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:background="@drawable/border_doctabunselected"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_doctab">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_guid"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:tint="@color/white"
+        android:src="@drawable/ic_notify"
+        android:visibility="invisible"
+        android:id="@+id/img_notify"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:id="@+id/tv_docName"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Dr.Naresh"/>
+</LinearLayout>

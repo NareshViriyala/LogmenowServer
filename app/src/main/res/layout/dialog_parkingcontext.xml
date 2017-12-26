@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_popup"
+    android:useDefaultMargins="true"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_margin="3dp"
+    android:layout_gravity="center"
+    android:id="@+id/grd_deviceContext">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border_unselected"
+        android:layout_gravity="fill"
+        android:gravity="center"
+        android:text="Device Context"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="Usage :: "
+        android:layout_columnWeight="1"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border_unselected"
+        android:layout_gravity="fill"
+        android:gravity="fill"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_enter"
+        android:src="@drawable/enter"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_unselected"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="1"
+        android:layout_columnWeight="1"
+        android:layout_column="1"
+        android:layout_columnSpan="2"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_exit"
+        android:src="@drawable/exit"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:background="@drawable/border_unselected"
+        android:layout_columnWeight="1"
+        android:layout_row="1"
+        android:layout_column="3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="Vehicle :: "
+        android:layout_columnWeight="1"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border_unselected"
+        android:layout_gravity="fill"
+        android:gravity="fill"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_wheeler2"
+        android:src="@drawable/wheeler2"
+        android:layout_marginRight="5dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:background="@drawable/border_unselected"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_wheeler4"
+        android:src="@drawable/wheeler4"
+        android:layout_marginRight="5dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:background="@drawable/border_unselected"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_wheeler3"
+        android:src="@drawable/wheeler3"
+        android:layout_marginRight="5dp"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:background="@drawable/border_unselected"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_wheeler0"
+        android:src="@drawable/wheeler0"
+        android:layout_marginRight="5dp"
+        android:layout_row="2"
+        android:layout_column="4"
+        android:background="@drawable/border_unselected"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="Tariff :: "
+        android:layout_columnWeight="1"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border_unselected"
+        android:layout_gravity="fill"
+        android:gravity="fill"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_normaltariff"
+        android:src="@drawable/tariffnormal"
+        android:layout_marginRight="5dp"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:background="@drawable/border_unselected"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_weekendtariff"
+        android:src="@drawable/tariffweekend"
+        android:layout_marginRight="5dp"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:background="@drawable/border_unselected"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_peaktimetariff"
+        android:src="@drawable/tariffpeaktime"
+        android:layout_marginRight="5dp"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:background="@drawable/border_unselected"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_holidaytariff"
+        android:src="@drawable/tariffholiday"
+        android:layout_marginRight="5dp"
+        android:layout_row="3"
+        android:layout_column="4"
+        android:background="@drawable/border_unselected"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="SET"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:layout_gravity="fill_horizontal"
+            android:id="@+id/btn_cntxSet"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:text="Cancel"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/btn_cntxCancel"/>
+    </LinearLayout>
+</GridLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/white"
+    android:paddingTop="10dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Appt ID: 1"
+                android:textStyle="bold"
+                android:textSize="12dp"
+                android:id="@+id/tv_apptid"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_PName"
+                android:text="Google"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age: 34 Years 11 Months"
+                android:textSize="10dp"
+                android:id="@+id/tv_age"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender: Male"
+                android:textSize="10dp"
+                android:id="@+id/tv_gender"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_call"
+            android:tint="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:id="@+id/img_callpatient"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"
+            android:textSize="12dp"
+            android:id="@+id/tv_patientphone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Q Time: 8:30 PM"
+                android:textSize="12dp"
+                android:id="@+id/tv_qtime"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In: 8:45 PM"
+                android:layout_gravity="right"
+                android:textSize="12dp"
+                android:id="@+id/tv_intime"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Out: 9:00 PM"
+                android:layout_gravity="right"
+                android:textSize="12dp"
+                android:id="@+id/tv_outtime"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_popup"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:text="Call"
+            android:id="@+id/tv_call"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="23:00"
+            android:visibility="invisible"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+            android:id="@+id/tv_timer"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_popup"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Cancel"
+            android:id="@+id/tv_cancel"/>
+    </LinearLayout>
+</LinearLayout>

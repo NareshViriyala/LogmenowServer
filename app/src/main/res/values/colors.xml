@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="colorSecondary">#9FA8DA</color>
+
+
+
+    <color name="patientout">#C5CAE9</color>
+    <color name="patientin">#FFF9C4</color>
+    <!--<color name="colorPrimaryRest">#3F51B5</color>
+    <color name="colorPrimaryDarkRest">#303F9F</color>
+    <color name="colorAccentRest">#FF4081</color>
+    <color name="textColorPrimaryRest">#FFFFFF</color>
+    <color name="colorSecondaryRest">#9FA8DA</color>-->
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="grey">#D3D3D3</color>
+    <color name="lightgreen">#8BC34A</color>
+</resources>
