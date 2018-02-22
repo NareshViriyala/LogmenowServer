@@ -23,8 +23,7 @@ public class WebServiceCall {
 
     private DBHelper mydb;
     private String PageName = "WebServiceCall";
-    //private String apiURL = "http://caremetricsdemo.ihealthtechnologies.com/api/";
-    private String apiURL = "http://www.logmenow.com/db_calls/";
+    private String apiURL = "http://54.227.10.115/db_calls/";
 
 
     public WebServiceCall(Context context){mydb = new DBHelper(context);}
